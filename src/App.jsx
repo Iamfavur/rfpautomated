@@ -19,7 +19,7 @@ function App() {
       <nav className="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-500/20">
+            <div className="w-8 h-8 rounded-lg bg-linear-to-br from-indigo-500 to-cyan-500 flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-500/20">
               R
             </div>
             <span className="font-bold text-xl tracking-tight">rfpautomated</span>
@@ -50,7 +50,7 @@ function App() {
         </h1>
         
         <p className="text-xl text-slate-400 max-w-3xl mb-10 leading-relaxed">
-          rfpautomated uses isolated Retrieval-Augmented Generation (RAG) to instantly transform your historical proposals, SOC2 reports, and architecture docs into winning, fully-formatted B2B bids.
+          rfpautomated uses a smart isolated AI to instantly transform your historical proposals, SOC2 reports, and architecture docs into winning, fully-formatted Business-to-Business bids.
         </p>
 
         {/* Waitlist Form */}
@@ -83,12 +83,14 @@ function App() {
         {/* Integrations Bar */}
         <p className="text-sm text-slate-500 font-medium mb-4 uppercase tracking-wider">Engineered to integrate seamlessly with</p>
         <div className="flex flex-wrap justify-center gap-4 text-slate-400 opacity-70">
+          <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">AWS S3 Ingestion</span>
           <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">Microsoft Word Add-in</span>
           <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">Excel CSV Export</span>
           <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">Azure Active Directory</span>
-          <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">AWS S3 Ingestion</span>
         </div>
       </main>
+
+      
 
       {/* 3. Metrics Banner */}
       <div className="border-y border-slate-800 bg-slate-900/50">
@@ -112,7 +114,7 @@ function App() {
       <section id="platform" className="py-24 bg-slate-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">A complete RFP pipeline.</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">A complete Request-for-Proposal pipeline.</h2>
             <p className="text-slate-400 max-w-2xl text-lg">Not just a wrapper. A deeply integrated AI workflow designed specifically for B2B sales and security compliance teams.</p>
           </div>
 
@@ -121,31 +123,31 @@ function App() {
             <div className="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
               <div className="w-10 h-10 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-6 text-indigo-400 font-bold text-xl">1</div>
               <h3 className="text-xl font-semibold mb-3">Multi-Format Ingestion</h3>
-              <p className="text-slate-400 text-sm leading-relaxed">Drag and drop PDFs, raw Excel grids, or complex Word documents. Our parsers strip and normalize the text instantly.</p>
+              <p className="text-slate-400 text-sm leading-relaxed">Drag and drop PDFs, raw Excel grids, or complex Word documents. Our parsers reads the text instantly.</p>
             </div>
             {/* 2 */}
             <div className="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
               <div className="w-10 h-10 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-6 text-indigo-400 font-bold text-xl">2</div>
-              <h3 className="text-xl font-semibold mb-3">Vectorized Knowledge Base</h3>
-              <p className="text-slate-400 text-sm leading-relaxed">Your data is chunked and stored in a secure vector database, meaning the AI fetches exact historical facts, not guesses.</p>
+              <h3 className="text-xl font-semibold mb-3">Knowledge Base</h3>
+              <p className="text-slate-400 text-sm leading-relaxed">Your data is read and stored in a secure database, meaning the AI fetches exact historical facts, not guesses.</p>
             </div>
             {/* 3 */}
             <div className="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
               <div className="w-10 h-10 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-6 text-indigo-400 font-bold text-xl">3</div>
               <h3 className="text-xl font-semibold mb-3">Native Export Formatting</h3>
-              <p className="text-slate-400 text-sm leading-relaxed">Stop copying and pasting. rfpautomated rebuilds the answered document in the exact format your client requested.</p>
+              <p className="text-slate-400 text-sm leading-relaxed">Stop copying and pasting. rfpautomated rebuilds the entire answered document in the exact format your client requested.</p>
             </div>
             {/* 4 */}
             <div className="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
               <div className="w-10 h-10 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-6 text-cyan-400 font-bold text-xl">4</div>
               <h3 className="text-xl font-semibold mb-3">Brand Voice Alignment</h3>
-              <p className="text-slate-400 text-sm leading-relaxed">Configure tone, terminology, and stylistic preferences so the output sounds exactly like your senior sales engineers.</p>
+              <p className="text-slate-400 text-sm leading-relaxed">Configure tone, terminology, and stylistic preferences so the output sounds exactly like your senior sales managers.</p>
             </div>
             {/* 5 */}
             <div className="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
               <div className="w-10 h-10 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-6 text-cyan-400 font-bold text-xl">5</div>
               <h3 className="text-xl font-semibold mb-3">Team Collaboration</h3>
-              <p className="text-slate-400 text-sm leading-relaxed">Flag specific answers for review by your CISO, legal team, or lead engineers before finalizing the document.</p>
+              <p className="text-slate-400 text-sm leading-relaxed">Flag specific answers for review by your CISO, legal team, or lead managers before finalizing the document.</p>
             </div>
             {/* 6 */}
             <div className="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-slate-700 transition-colors">
@@ -167,7 +169,7 @@ function App() {
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Your data is your product. Not ours.</h2>
           <p className="text-slate-400 text-lg mb-12 max-w-3xl mx-auto">
-            We built rfpautomated for enterprise environments from day one. Your sensitive corporate intelligence is heavily encrypted, containerized per tenant, and fundamentally isolated from public foundational LLM training pools.
+            We built rfpautomated for enterprise environments from day one. Your sensitive corporate intelligence is heavily encrypted, stored per tenant, and fundamentally isolated from public foundational AI training pools.
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
