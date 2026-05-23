@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-900 text-slate-50 font-sans selection:bg-indigo-500 selection:text-white">
-      
+
       {/* 1. Navigation */}
       <nav className="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
@@ -41,14 +41,14 @@ function App() {
           <span className="flex w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
           Now accepting Q3 2026 Enterprise Pilots
         </div>
-        
+
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 max-w-5xl leading-tight">
           Stop losing hours to <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 via-cyan-400 to-indigo-400 bg-300% animate-gradient">
             security questionnaires.
           </span>
         </h1>
-        
+
         <p className="text-xl text-slate-400 max-w-3xl mb-10 leading-relaxed">
           rfpautomated uses a smart isolated AI to instantly transform your historical proposals, SOC2 reports, and architecture docs into winning, fully-formatted Business-to-Business bids.
         </p>
@@ -81,16 +81,44 @@ function App() {
         </div>
 
         {/* Integrations Bar */}
-        <p className="text-sm text-slate-500 font-medium mb-4 uppercase tracking-wider">Engineered to integrate seamlessly with</p>
-        <div className="flex flex-wrap justify-center gap-4 text-slate-400 opacity-70">
-          <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">AWS S3 Ingestion</span>
-          <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">Microsoft Word Add-in</span>
-          <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">Excel CSV Export</span>
-          <span className="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700/50 text-sm font-semibold flex items-center gap-2">Azure Active Directory</span>
+        <p className="text-sm text-slate-500 font-medium mb-6 uppercase tracking-wider">
+          Engineered for Dual-Cloud Enterprise Deployments
+        </p>
+        <div className="flex flex-wrap justify-center gap-4 text-slate-400 opacity-80 max-w-4xl">
+          {/* AWS Service Indicators */}
+          <span className="px-4 py-2 rounded-lg bg-slate-800/40 border border-slate-700/40 text-sm font-semibold flex items-center gap-2 hover:border-orange-500/30 transition-colors">
+            <span className="w-2 h-2 rounded-full bg-orange-500 shadow-sm"></span>
+            AWS S3 Secure Ingestion
+          </span>
+          <span className="px-4 py-2 rounded-lg bg-slate-800/40 border border-slate-700/40 text-sm font-semibold flex items-center gap-2 hover:border-orange-500/30 transition-colors">
+            <span className="w-2 h-2 rounded-full bg-orange-400 shadow-sm"></span>
+            Amazon RDS Multi-Tenant DB
+          </span>
+          <span className="px-4 py-2 rounded-lg bg-slate-800/40 border border-slate-700/40 text-sm font-semibold flex items-center gap-2 hover:border-orange-500/30 transition-colors">
+            <span className="w-2 h-2 rounded-full bg-amber-500 shadow-sm"></span>
+            AWS Lambda Serverless API
+          </span>
+
+          {/* Azure Service Indicators */}
+          <span className="px-4 py-2 rounded-lg bg-slate-800/40 border border-slate-700/40 text-sm font-semibold flex items-center gap-2 hover:border-blue-500/30 transition-colors">
+            <span className="w-2 h-2 rounded-full bg-blue-500 shadow-sm"></span>
+            Azure OpenAI Core LLM
+          </span>
+          <span className="px-4 py-2 rounded-lg bg-slate-800/40 border border-slate-700/40 text-sm font-semibold flex items-center gap-2 hover:border-blue-500/30 transition-colors">
+            <span className="w-2 h-2 rounded-full bg-cyan-500 shadow-sm"></span>
+            Azure Active Directory SSO
+          </span>
+          <span className="px-4 py-2 rounded-lg bg-slate-800/40 border border-slate-700/40 text-sm font-semibold flex items-center gap-2 hover:border-blue-500/30 transition-colors">
+            <span className="w-2 h-2 rounded-full bg-indigo-500 shadow-sm"></span>
+            Microsoft 365 App Marketplace
+          </span>
         </div>
+
+
       </main>
 
-      
+
+
 
       {/* 3. Metrics Banner */}
       <div className="border-y border-slate-800 bg-slate-900/50">
@@ -171,7 +199,7 @@ function App() {
           <p className="text-slate-400 text-lg mb-12 max-w-3xl mx-auto">
             We built rfpautomated for enterprise environments from day one. Your sensitive corporate intelligence is heavily encrypted, stored per tenant, and fundamentally isolated from public foundational AI training pools.
           </p>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
             <div className="bg-slate-950 p-4 rounded-xl border border-slate-800">
               <h4 className="font-semibold text-white mb-1">SOC2 Ready</h4>
@@ -262,7 +290,7 @@ function App() {
             </ul>
           </div>
         </div>
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-slate-600 font-medium tracking-wide">
             © 2026 AUTOMATED INNS, S.L. All rights reserved.
