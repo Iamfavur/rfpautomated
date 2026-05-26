@@ -293,7 +293,7 @@ function App() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-slate-600 font-medium tracking-wide">
-            © 2026 AUTOMATED INNS, S.L. All rights reserved.
+            © 2026 rfpautomated. All rights reserved. rfpautomated is a product of  Radient Automated Tech LTD.
           </div>
           <div className="text-sm text-slate-600">
             <a href="mailto:support@rfpautomated.com" className="hover:text-slate-400 transition-colors">support@rfpautomated.com</a>
